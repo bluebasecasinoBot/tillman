@@ -11,7 +11,7 @@ __SYD.roadMapPage = () =>{
             __c(
                 "p",
                 {
-                    style:"display:flex;flex-direction:column;row-gap:10px;text-align:center;font-weight:900;align-items:center;font-size:18px;" + __sC['txt_shade2'](),
+                    style:"display:flex;flex-direction:column;row-gap:10px;text-align:center;font-weight:900;align-items:flex-start;font-size:18px;padding:0 15px;" + __sC['txt_shade2'](),
                     class:"page2_text"
                 },
                 [
@@ -29,33 +29,55 @@ __SYD.roadMapPage = () =>{
                     __c(
                         "p",
                         {
-                            style:"padding:5px;"
+                            style:"transform:translateX(0px);width:fit-content;margin-left:15px;"
                         },
                         [
                             `
-                                Develop and deploy the token on a DEX
+                                We
                             `
                         ]
                     ),
                     __c(
                         "p",
                         {
-                            style:"padding:5px;"
+                            style:"transform:translateX(25px);width:fit-content;margin-left:15px;"
                         },
                         [
                             `
-                                Build social media presence and engage with the community.
+                                Stake
                             `
                         ]
                     ),
                     __c(
                         "p",
                         {
-                            style:"padding:5px;"
+                            style:"transform:translateX(55px);width:fit-content;margin-left:15px;"
                         },
                         [
                             `
-                                Run fun marketing campaigns and collab with meme creators.
+                                To
+                            `
+                        ]
+                    ),
+                    __c(
+                        "p",
+                        {
+                            style:"transform:translateX(75px);width:fit-content;margin-left:15px;"
+                        },
+                        [
+                            `
+                                Da
+                            `
+                        ]
+                    ),
+                    __c(
+                        "p",
+                        {
+                            style:"transform:translateX(95px);width:fit-content;margin-left:15px;"
+                        },
+                        [
+                            `
+                                Moon
                             `
                         ]
                     )
