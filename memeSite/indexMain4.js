@@ -4,7 +4,7 @@ __SYD.roadMapPage = () =>{
     return __c(
         "div",
         {
-            style:"min-height:fit-content;padding:180px 0;width:100%;background-image:url('./design/roadMap.png');background-position:0,0;column-gap:20px;justify-content:space-around;align-items:center;position:relative;" + __sC["container"]({method:"use" , style:['display','rowGap']}),
+            style:"min-height:fit-content;padding:220px 0;width:100%;background-image:url('./design/roadMap.png');background-position:0,0;column-gap:20px;justify-content:space-around;align-items:center;position:relative;" + __sC["container"]({method:"use" , style:['display','rowGap']}),
             class:"page4_flex"
         },
         [
