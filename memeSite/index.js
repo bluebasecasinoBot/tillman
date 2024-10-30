@@ -42,7 +42,8 @@ __sS([
         style:{
             color:"#fff",
             textShadow:"-1px 1px 1px #000",
-            fontFamily:"suncos"
+            fontFamily:"suncos",
+            lineHeight:"20px"
         }
     },
     {
