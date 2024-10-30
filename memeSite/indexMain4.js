@@ -11,7 +11,7 @@ __SYD.roadMapPage = () =>{
             __c(
                 "p",
                 {
-                    style:"display:flex;flex-direction:column;row-gap:10px;text-align:center;font-weight:900;align-items:flex-start;font-size:18px;padding:0 15px;" + __sC['txt_shade2'](),
+                    style:"display:flex;flex-direction:column;row-gap:10px;text-align:center;font-weight:900;align-items:center;font-size:18px;padding:0 15px;" + __sC['txt_shade1'](),
                     class:"page2_text"
                 },
                 [
@@ -29,7 +29,7 @@ __SYD.roadMapPage = () =>{
                     __c(
                         "p",
                         {
-                            style:"transform:translateX(0px);width:fit-content;margin-left:15px;"
+                            style:"background:#e2bf98;padding:10px;transform:translateX(-50px);width:100px;margin-left:15px;box-shadow:-2px 2px 1px #000;border-radius:10px;"
                         },
                         [
                             `
@@ -40,7 +40,7 @@ __SYD.roadMapPage = () =>{
                     __c(
                         "p",
                         {
-                            style:"transform:translateX(25px);width:fit-content;margin-left:15px;"
+                            style:"background:#e2bf98;padding:10px;transform:translateX(50px);width:100px;margin-left:15px;box-shadow:-2px 2px 1px #000;border-radius:10px;"
                         },
                         [
                             `
@@ -51,7 +51,7 @@ __SYD.roadMapPage = () =>{
                     __c(
                         "p",
                         {
-                            style:"transform:translateX(55px);width:fit-content;margin-left:15px;"
+                            style:"background:#e2bf98;padding:10px;transform:translateX(-50px);width:100px;margin-left:15px;box-shadow:-2px 2px 1px #000;border-radius:10px;"
                         },
                         [
                             `
@@ -62,7 +62,7 @@ __SYD.roadMapPage = () =>{
                     __c(
                         "p",
                         {
-                            style:"transform:translateX(75px);width:fit-content;margin-left:15px;"
+                            style:"background:#e2bf98;padding:10px;transform:translateX(50px);width:100px;margin-left:15px;box-shadow:-2px 2px 1px #000;border-radius:10px;"
                         },
                         [
                             `
@@ -73,7 +73,7 @@ __SYD.roadMapPage = () =>{
                     __c(
                         "p",
                         {
-                            style:"transform:translateX(95px);width:fit-content;margin-left:15px;"
+                            style:"background:#e2bf98;padding:10px;transform:translateX(-50px);width:100px;margin-left:15px;box-shadow:-2px 2px 1px #000;border-radius:10px;"
                         },
                         [
                             `
