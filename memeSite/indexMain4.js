@@ -44,7 +44,7 @@ __SYD.roadMapPage = () =>{
                         },
                         [
                             `
-                                Stake
+                                Skate
                             `
                         ]
                     ),
