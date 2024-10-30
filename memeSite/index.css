@@ -12,12 +12,12 @@ a{
 
 @font-face {
     font-family: neon;
-    src: url(./design/fonts/neon.ttf);
+    src: url(./design/fonts/Komigo3D-Regular.ttf);
 }
 
 @font-face {
     font-family: suncos;
-    src: url(./design/fonts/suncos.ttf);
+    src: url(./design/fonts/Type\ Machine.ttf);
 }
 
 .top_header_text
