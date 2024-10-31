@@ -32,35 +32,35 @@ __SYD.page1_left_text = () =>{
     return __c(
         "p",
         {
-            style:"min-height:fit-content;font-size:16px;font-weight:500;display:flex;flex-direction:column;row-gap:10px;padding:10px;" + __sC['floatingElement']([{method:"remove",style:['right' , 'position']}]) + __sC['txt_shade1'](),
+            style:"min-height:fit-content;font-size:16px;font-weight:500;display:flex;flex-direction:column;row-gap:20px;padding:10px;" + __sC['floatingElement']([{method:"remove",style:['right' , 'position']}]) + __sC['txt_shade1'](),
             class:"paragraph_float_class"
         },
         [
-            __c("p" , {style:"font-size:20px;text-transform:uppercase;margin-bottom:5px;width:fit-content;font-family:neon;color:#c99649;",class:"about_main_text"} , ["about $tillman"]),
+            __c("p" , {style:"font-size:20px;text-transform:uppercase;margin-bottom:10px;width:fit-content;font-family:neon;color:#c99649;",class:"about_main_text"} , ["about $tillman"]),
             __c(
                 "p",
-                {},
+                {style:"",class:"ad_text"},
                 [
                     `In a world filled with ordinary pets, one extraordinary dog left a mark that will never be forgotten. Tillman, the world-renowned skateboarding bulldog, captured hearts and inspired millions with his incredible talent and playful spirit. With his Guinness World Record for skateboarding, Tillman didn’t just ride the waves of a board; he rode straight into our hearts.`
                 ]
             ),
             __c(
                 "p",
-                {},
+                {class:"ad_text"},
                 [
                     `Now, we’re launching $TILLMAN, a meme coin dedicated to honoring his legacy. This coin isn’t just a currency; it’s a celebration of joy, adventure, and the unbreakable bond between pets and their humans. As we remember Tillman, we invite you to join us in spreading positivity and laughter in the crypto space.`
                 ]
             ),
             __c(
                 "p",
-                {},
+                {class:"ad_text"},
                 [
                     `Each $TILLMAN coin represents a piece of Tillman’s spirit—a reminder to embrace life with enthusiasm and a sense of fun. With a community-driven approach, we aim to support animal welfare initiatives, ensuring that Tillman’s legacy lives on by helping other pets in need.`
                 ]
             ),
             __c(
                 "p",
-                {},
+                {class:"ad_text"},
                 [
                     `Let’s roll together on this journey, just like Tillman on his skateboard. Grab your $TILLMAN, share the laughter, and let’s keep the spirit of this incredible dog alive!`
                 ]
