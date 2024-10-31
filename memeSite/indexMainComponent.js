@@ -102,7 +102,7 @@ __SYD.page1_right_text = () =>{
                     class:"paragraph_float_class_div_child"
                 },
                 [
-                    __c("div" , {style:"height:60px;width:200px;border:2px solid #171717;display:flex;align-items:center;justify-content:center;font-weight:900;background:#c99649;transform:rotateZ(-3deg);font-family:suncos;font-size:22px;border-radius:10px;cursor:pointer;"},["BUY $TILLMAN"])
+                    __c("div" , {style:"height:60px;width:200px;border:2px solid #171717;display:flex;align-items:center;justify-content:center;font-weight:900;background:#c99649;transform:rotateZ(-3deg);font-family:suncos;font-size:22px;border-radius:10px;cursor:pointer;font-family:neon;"},["BUY $TILLMAN"])
                 ]
             ),
         ]
