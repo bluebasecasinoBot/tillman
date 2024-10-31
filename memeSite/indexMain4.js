@@ -29,7 +29,8 @@ __SYD.roadMapPage = () =>{
                     __c(
                         "p",
                         {
-                            style:"background:#e2bf98;padding:10px;transform:translateX(-50px);width:100px;margin-left:15px;box-shadow:-2px 2px 1px #000;border-radius:10px;"
+                            style:"background:#e2bf98;padding:10px;transform:translateX(-50px);width:100px;margin-left:15px;box-shadow:-2px 2px 1px #000;border-radius:10px;",
+                            class:"right_slant"
                         },
                         [
                             `
@@ -40,18 +41,20 @@ __SYD.roadMapPage = () =>{
                     __c(
                         "p",
                         {
-                            style:"background:#e2bf98;padding:10px;transform:translateX(50px);width:100px;margin-left:15px;box-shadow:-2px 2px 1px #000;border-radius:10px;"
+                            style:"background:#e2bf98;padding:10px;transform:translateX(50px);width:100px;margin-left:15px;box-shadow:-2px 2px 1px #000;border-radius:10px;",
+                            class:"left_slant"
                         },
                         [
                             `
-                                Skate
+                                Stake
                             `
                         ]
                     ),
                     __c(
                         "p",
                         {
-                            style:"background:#e2bf98;padding:10px;transform:translateX(-50px);width:100px;margin-left:15px;box-shadow:-2px 2px 1px #000;border-radius:10px;"
+                            style:"background:#e2bf98;padding:10px;transform:translateX(-50px);width:100px;margin-left:15px;box-shadow:-2px 2px 1px #000;border-radius:10px;",
+                            class:"right_slant"
                         },
                         [
                             `
@@ -62,7 +65,8 @@ __SYD.roadMapPage = () =>{
                     __c(
                         "p",
                         {
-                            style:"background:#e2bf98;padding:10px;transform:translateX(50px);width:100px;margin-left:15px;box-shadow:-2px 2px 1px #000;border-radius:10px;"
+                            style:"background:#e2bf98;padding:10px;transform:translateX(50px);width:100px;margin-left:15px;box-shadow:-2px 2px 1px #000;border-radius:10px;",
+                            class:"left_slant"
                         },
                         [
                             `
@@ -73,7 +77,8 @@ __SYD.roadMapPage = () =>{
                     __c(
                         "p",
                         {
-                            style:"background:#e2bf98;padding:10px;transform:translateX(-50px);width:100px;margin-left:15px;box-shadow:-2px 2px 1px #000;border-radius:10px;"
+                            style:"background:#e2bf98;padding:10px;transform:translateX(-50px);width:100px;margin-left:15px;box-shadow:-2px 2px 1px #000;border-radius:10px;",
+                            // class:"right_slant"
                         },
                         [
                             `
