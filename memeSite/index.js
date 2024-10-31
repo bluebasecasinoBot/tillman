@@ -121,7 +121,7 @@ __SYD.topHeaderText = () =>{
     return __c(
         "h1",
         {
-            style:"font-family:neon;color:#171717;text-align:center;width:100%;padding:20px 0;" + __sC['txt_shade3'](),
+            style:"font-family:neon;color:#171717;text-align:center;width:90%;padding:20px 0;" + __sC['txt_shade3'](),
             class:"top_header_text"
         },
         [
