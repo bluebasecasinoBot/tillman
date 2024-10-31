@@ -22,7 +22,7 @@ __SYD.tokenomicsPage = () =>{
                             class:"tokenomic_text"
                         },
                         [
-                            "🔥 $tillman tokenomics 🔥"
+                            __c("span",{class:"h_one"},["🔥"])," $tillman tokenomics ",__c("span",{class:"h_two"},["🔥"])
                         ]
                     ),
 
