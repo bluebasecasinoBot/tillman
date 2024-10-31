@@ -125,7 +125,7 @@ __SYD.topHeaderText = () =>{
             class:"top_header_text"
         },
         [
-            "$tillman skating dog"
+            "$tillman skateboarding dog"
         ]
     )
 }
