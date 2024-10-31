@@ -20,6 +20,53 @@ a{
     src: url(./design/fonts/Type\ Machine.ttf);
 }
 
+.right_slant
+{
+    position: relative;
+    isolation: isolate;
+}
+
+.right_slant::before
+{
+    content: "";
+    position:absolute;
+    top:calc(100% - 2px);
+    right:0;
+    height: 17px;
+    width: 5px;
+    background: linear-gradient(to right , #000 -10%, #e2bf98);
+    transform: rotateZ(-45deg);
+    border-radius: 2px;
+    z-index: -1;
+}
+
+.ad_text{
+    border: unset;
+    border-left:3px groove #c99649;
+    padding-left: 10px;
+    font-weight: 900;
+}
+
+.left_slant
+{
+    position: relative;
+    isolation: isolate;
+}
+
+.left_slant::before
+{
+    content: "";
+    position:absolute;
+    top:calc(100% - 2px);
+    left:0;
+    height: 17px;
+    width: 5px;
+    background: linear-gradient(to right , #000 -10% , #e2bf98);
+    transform: rotateZ(45deg);
+    z-index: -1;
+    border-radius: 2px;
+}
+
 .top_header_text
 {
     font-size: 50px;
@@ -75,7 +122,7 @@ a{
 {
     content: "";
     position: absolute;
-    top:calc(100% + 0px);
+    top:calc(100% + 5px);
     left: 50%;
     transform: translateX(-50%);
     height:3px;
@@ -87,7 +134,7 @@ a{
 {
     content: "";
     position: absolute;
-    top:calc(100%);
+    top:calc(100% + 5px);
     left: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -109,7 +156,7 @@ a{
     justify-content: flex-end;
 }
 
-.paragraph_float_class_div_child .h_one , .paragraph_float_class_div_child .h_two , .paragraph_float_class_div_child .h_three{
+.h_one , .h_two , .h_three{
     /* animation-name:h_one; */
     animation-duration: 3s;
     animation-timing-function: linear;
@@ -262,6 +309,16 @@ a{
 }
 
 @media screen and (max-width:900px) {
+
+    .ad_text
+    {
+        border:3px groove #c99649;
+        border-top:unset;
+        padding:10px;
+        border-radius: 15px;
+        background:#c99649;
+    }
+
     .top_header_text
     {
         font-size: 30px;
